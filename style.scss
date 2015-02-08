@@ -7,6 +7,7 @@
 
 @import "_reset";
 @import "_variables";
+@import url(https://fonts.googleapis.com/css?family=Inconsolata|Crimson+Text);
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -19,7 +20,7 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
+  font: 18px/1.4 "Crimson Text";
   color: $darkGray;
 }
 
@@ -31,7 +32,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font-family: "Crimson Text", serif;
   color: $darkerGray;
   font-weight: bold;
 
@@ -46,6 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 30px;
+  color: #2C5E2E;
   a {
     color: inherit;
   }
@@ -69,11 +71,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: #70B85D;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: #54D0ED;
   }
 }
 
@@ -192,9 +194,8 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: #2C5E2E;
   cursor: pointer;
-  font-family: $helveticaNeue;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -202,8 +203,9 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: #70B85D;
   font-size: 16px;
+  font-family: "Inconsolata";
 
   @include mobile {
     margin: 3px 0;
@@ -213,7 +215,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  font-family: "Inconsolata";
   font-size: 18px;
 
   @include mobile {

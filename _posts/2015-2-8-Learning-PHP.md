@@ -1,17 +1,14 @@
 ---
 layout: post
-title: Rock, Paper, Scissors with PHPUnit
+title: Test-Driving Rock, Paper, Scissors with PHPUnit
 ---
-
-# Test-Driving Rock, Paper, Scissors with PHPUnit
-
-## Overview
 
 Test-driven development is a method of writing as little code as possible in order to achieve functionality. In order to ensure that tests are purposeful (i.e. not false positives), it is standard practice at Makers Academy to write a failing test, then write just enough code to make the test pass, followed by refactoring. The aim of this tutorial is to provide a glimpse into the "Makers Way" of software development using PHP and PHPUnit. This walkthrough assumes basic familiarity with PHP syntax.
 
 There are many ways to write Rock, Paper, Scissors. In this version, we will err on the side of object orientation for each "choice", and the win/loss mechanism will be a method inside the Game class.
 
-## Installing Dependencies
+### Installing Dependencies
+
 If you haven't done so already, install Composer and PHPUnit. Composer is a package manager for PHP applications, similar to Bundler and NPM.
 
 ```php
@@ -32,7 +29,7 @@ Running ```composer install``` from shell will load all of a program's dependenc
 
 At this point, if you are going to push to Github, create a .gitignore file and place composer.lock and the vendor folder into it.
 
-## Project Setup
+### Project Setup
 
 Set up two directories, src/ and tests/. Following convention, the model script goes into the src folder and the corresponding test script goes into tests. The file tree at this stage:
 
@@ -54,7 +51,7 @@ PHPUnit syntax generally follows this pattern:
 
 A full appendix of assertions is here: https://phpunit.de/manual/current/en/appendixes.assertions.html
 
-## Building objects
+### Building objects
 
 First, let's write a failing test.
 
@@ -99,7 +96,7 @@ class Rock {
 
 Now the test should pass. Repeat for the Paper and Scissors classes!
 
-## Building the Game class
+### Building the Game class
 
 Once all of the objects are created, it's time to build some game logic. Let's begin with another failing test:
 
@@ -218,7 +215,7 @@ class Game {
 
 The logic of the evaluates method now accounts for the order of parameters. Write the final test, for the case when PaperBeatsRock, and watch it pass! (I know -- this part isn't strictly TDD.)
 
-## Refactoring
+### Refactoring
 
 Notice anything about the test cases? There's a lot of repetition -- the same objects are instantiated over and over again throughout the test suite. This is bad, because it violates the DRY principle.
 
@@ -252,7 +249,7 @@ To access the particular object created in the setUp fixture, the object referen
 
 That's it! Can you think of any other functionality?
 
-## Completed Code
+### Completed Code
 
 ```php
 // src/game.php
