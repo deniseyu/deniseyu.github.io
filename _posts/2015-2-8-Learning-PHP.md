@@ -333,3 +333,5 @@ class GameTest extends PHPUnit_Framework_TestCase
 ?>
 ```
 
+[Sample repo here](https://github.com/deniseyu/rock-php-scissors), with added Lizard and Spock :)
+
