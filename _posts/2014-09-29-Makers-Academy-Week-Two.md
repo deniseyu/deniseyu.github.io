@@ -1,0 +1,32 @@
+---
+layout: post
+title: Week Two at Makers Academy
+---
+
+Week 2 at Makers Academy presented a host of new challenges. During Week 1, it would not be accurate to say that there was hand-holding, but the Boris Bikes project that we built in pairs came with a much more in-depth tutorial than our project for Week 2, which was to build a working skeleton for a simple Battleships game. Where Week 1’s difficult gradually crept upward as the week went on (with a slightly steeper climb when London TDD was introduced!), in Week 2, at some points it truly felt like we came up against a huge wall that would challenge even Tormund Giantsbane to scale…
+
+### 1. Working in teams is really, really hard.
+
+MA has designed the course to capture the reality of working as a developer as realistically as possible. In the “real world” of software development, one of the most difficult things is to work on a team. People will invariably come onto a project team with different skill levels and different ideas of how to approach a problem. This past week’s project was difficult, 50% because the code was really tough, and 50% because it is very difficult to keep a team moving forward in sync. In small group settings, my type A personality tends to come out so I usually become the de facto project leader, but this time around, I felt that I was spending so much time just trying to understand the technical aspects (i.e. how to construct the damn Battleship grid) that I could not meaningfully also manage the team. Reflecting back, while I loved working with my teammates, I do believe that we could have communicated more effectively about the non-technical roles that could have been divided up.
+
+### 2. Anxiety management needs to become a conscious process.
+
+Another contributor to the increased difficulty level in Week 2 was the palpable shift away from a “monkey see, monkey adapt and replicate” theme of the first week. The challenges for Week 2 were REALLY tricky. I didn’t manage to complete both of them by the end of the weekend, and on Monday morning it wasn’t hard to see that I was in good company.
+
+There was this one night during college when I was working on an economics problem set with my group. Fueled by anxiety and doubleshot espressos, we eventually started talking about how we generally cope with the “trauma of not knowing how”. Despite the richness of the English language, I think we don’t really have a specific word or phrase to describe this feeling. This feeling is a mixture of hopelessness, inadequacy, and anger at your own inability to parse a problem into actionable pieces. It’s all compounded by the knowledge that other people before you, around you, and after you managed to overcome the problem in front of you. They weren’t defeated. That’s a thought that should be reassuring, but in this particular circumstance, it’s the worst feeling in the world, only adding fodder to your campaign of self-sabotage.
+
+### 3. Coding is like an open-book test, and that book is the entire internet.
+
+The Week 2 challenges were designed not necessarily to reward your comprehension of what we learned during the week, but to prompt us to start searching for the answers outside of the classroom. David, one of the senior makers, joked that in addition to Chicago-style TDD and London TDD, there was a third major school: Stack Overflow-Driven Development. The challenges intentionally called for methods and techniques that we had not yet been exposed to. A significant difficulty was finally starting to understand a sub-task, but not yet having the vocabulary to search for a solution properly on Google.
+
+### 4. Remember to breathe!
+
+I think an ongoing struggle for me will be remembering to relax throughout the course. When we constantly have waaaaay more than we can handle on our plates, it is so important to allow yourself to step back, take a deep breath, and go do something that isn’t coding for a while. This weekend, I went for a long walk and cooked a roast chicken dinner with my flatmates, and I only spent about three hours on the challenges overall — but those three hours were some of the most efficient and focused hours of coding that I’ve had at home so far. A few of the senior makers have already reiterated that at Makers, it is completely okay to fail. It is okay to work on a piece of code for an entire day only to realize that you’ve been hammering in the complete wrong direction, only to wind up scrapping the entire thing. It’s cliche, but it really is more about process than product. The coaches (so far!) have always provided failsafes — if our Battleship project is woefully incomplete, Steve will do a code-along at the end of the week so we have something to build a web app with during the following week, even if the mechanical understanding is not 100% there yet. But they provide these failsafes only after we’ve been given a chance to frustrate ourselves in the hope of producing something workable. That is something completely unique to Makers Academy, different from all of my half decade of higher education.
+
+### A few other scattered thoughts:
+
+I think the aspect of Makers Academy that I am the most impressed by is their dedication to actively soliciting feedback for every aspect of the program. Evgeny, the co-founder, communicates with us very frequently about the Makers ethos and how they are constantly improving the curriculum, searching for talented developers to become teachers, and making quality of life improvements to the office environment. Every other week we have site-wide “retrospectives” — an organized forum for complaining, essentially haha. Evgeny’s team’s ability to separate ego from work and their commitment to candid feedback is something I have literally never seen in any other organization I’ve been involved with, and it is genuinely awesome.
+
+I’ve gotta admit that I wasn’t expecting to have so much fun at Makers Academy. I emotionally braced myself for this experience knowing that I’m not a natural at coding, so I definitely wasn’t expecting by the end of Week 2 to make a bunch of new friends that I clicked so well with, especially since I felt that I’d been fairly low-key during the entire first week. On Friday evening I somehow convinced a group of Makers to partake in a bunch of schoolyard games that I’d played when I was 12. I leave you with the pyramid of drunkenness that we assembled:
+
+![Human Pyramid](/images/humanpyramid.png)
