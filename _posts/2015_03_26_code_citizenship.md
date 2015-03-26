@@ -25,4 +25,6 @@ Regardless of whether your project is open-source, there should be a constant ex
 
 I have faith that good code citizenship is possible. Maybe it's not, and maybe software development is just like everything else (in that case, I've made a very silly decision to give up law!). But the wonderful thing about coding is that we're given new chances all the time. New projects, new language APIs, new frameworks, better testing tools. Occasionally, someone decides to update an [extremely popular framework](https://github.com/angular/angular) and make it backwards-incompatible. Software development gives us lots and lots of opportunities to start fresh. But even with the legacy code, it can feel monolithic oftentimes, but nothing is truly, permanently broken (except IE 6).
 
-I hope that with each new start, more teams have discussions about shared responsibility for the code, and one by one, we get closer to a world where Good Developers are also Good Citizens.
+I hope that with each new start, more teams have discussions about shared responsibility for the code, and one by one, we get closer to a world where Good Developers are also Good Citizens. I leave you with this gem from Geek & Poke:
+
+![typos](/images/typo2.jpg)
