@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Ready, Set, Ruby!: Using code to model and solve mathematical problems
+title: Ready, Set, Ruby! Using code to model and solve an easily-Googlable problem
 ---
 
 A few weekends ago, [Spike](http://github.com/spike01) went to [SoCraTes](http://socratesuk.org/), where he learned a game called <a href='https://en.wikipedia.org/wiki/Set_(game)'>Set</a>. The premise of the game is fairly simple:
 
-There are 12 cards laid out on the table from a deck of 81 total cards. Each card has four characteristics, and three possible options for each characteristic:
+There are a certain number of cards laid out on the table from a deck of 81 total cards. Each card has four characteristics, and three possible options for each characteristic:
 
 * Color - red, green, purple
 * Shape - diamond, pill, squiggle
@@ -21,7 +21,7 @@ We got into a discussion about how many possible sets there were in a deck of 81
 
 This probably is not the most elegant approach (neither of us come from maths backgrounds), but as a first pass, I felt it was more important to try to solve the problem so we understand the domain, and strive for mathematical elegance and resource efficiency later. So, using Ruby as our weapon of choice, we set out to create every possible combination of triples, then sort through those combinations, selecting only the ones that are valid combinations.
 
-1. Model the possibilities within each characteristic using arrays and symbols. To help prevent accidental mutation of these arrays, `.freeze` them. This potentially makes the approach a little less extensible, and I would probably never do this in a real application, but in this particular case, we know that the card characteristics won't change within the domain of the problem.
+1) Model the possibilities within each characteristic using arrays and symbols. To help prevent accidental mutation of these arrays, `.freeze` them. This potentially makes the approach a little less extensible, and I would probably never do this in a real application, but in this particular case, we know that the card characteristics won't change within the domain of the problem.
 
 ```ruby
 class SetCards
@@ -32,7 +32,7 @@ class SetCards
 end
 ```
 
-2. Loop through these arrays one, within another, to generate a new array, containing all 81 cards represented as hashes.
+2) Loop through these arrays one, within another, to generate a new array, containing all 81 cards represented as hashes.
 
 ```ruby
 def self.create_cards
@@ -55,7 +55,7 @@ end
 CARDS = create_cards.freeze
 ```
 
-3. Next, we need to generate every possible 3-card combination. Fortunately, Ruby has a method for this!
+3) Next, we need to generate every possible 3-card combination. Fortunately, Ruby has a method for this!
 
 ```ruby
 def all_triples
@@ -65,7 +65,7 @@ end
 
 Yes, it really is that easy. `.combination` is actually a method that belongs to the Enumerable module, but we need an array to be returned for data manipulation. For anyone who's curious, there are **85,320** different triples.
 
-4. Now that the triples are set up, we can begin to think about the trickier part: How do we pick out the triples that meet the criteria for being a valid combination?
+4) Now that the triples are set up, we can begin to think about the trickier part: How do we pick out the triples that meet the criteria for being a valid combination?
 
 If we revisit the rules of the game, the criteria is actually quite clear:
 
@@ -93,9 +93,9 @@ def valid_set?(triple)
 end
 ```
 
-However, this is really horrible because we'd actually need four times as much code to test every attribute. We could meta-program some of the repetition away, but it purpose of the method may then become unclear. The second problem is that a separate array is being set up inside the body of this method just to be manipulated. When this happens, it is usually a pretty good indication that there is a better, functional way to do this.
+However, this is really horrible because we'd actually need four times as much code to test every attribute. We could meta-program some of the repetition away, but the purpose of the method may then become unclear. The second problem is that a separate array is being set up inside the body of this method just to be manipulated. When this happens, it is usually a pretty good indication that there is a better way to do this.
 
-5. **Functional programming FTW!** If you've ever used Excel to build a pivot table, this Ruby method will feel very familiar to you: Ruby has a neat method called `.transpose`, which, when called on an array of arrays, takes the first element of every array and creates a new array, takes the second elements into a new array, and so on.
+5) If you've ever used Excel to build a pivot table, this Ruby method will feel very familiar to you: Ruby has a neat method called `.transpose`, which, when called on an array of arrays, takes the first element of every array and creates a new array, takes the second elements into a new array, and so on.
 
 Before we do this, we actually need to replace the hashes with just the bits of information we're interested in comparing -- the values. Like so:
 
@@ -109,7 +109,7 @@ We could iterate through each of these new inner arrays now, and return as soon 
 ```ruby
 def valid_set?(triple)
   triple.map(&:values).transpose.each do |attribute|
-    return false if attribute.uniq.count == 2
+    return if attribute.uniq.count == 2
   end
 end
 ```
@@ -175,3 +175,5 @@ The correct answer is **1,080** distinct possible sets. I really enjoyed this ex
 On discussing this with Mateu from 8th Light (a shout-out to the whole team there, who are awesome), he suggested approaching the problem in reverse: Rather than generating every possible combination and filtering, we could be more discerning about what cards are generated in the first place. Our approach had the shape of a funnel -- start large, then whittle down, whereas what he had in mind was the complete opposite: start small, and build up gradually.
 
 If you would to take a crack at modeling Mateu's method, throw it on Github and tweet at me - @deniseyu21 :-)
+
+[Full repo on github](https://github.com/deniseyu/set)
