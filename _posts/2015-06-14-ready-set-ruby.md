@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ready, Set, Ruby! Using code to model and solve an easily-Googlable problem
+title: Ready, Set, Ruby!
 ---
 
 A few weekends ago, [Spike](http://github.com/spike01) went to [SoCraTes](http://socratesuk.org/), where he learned a game called <a href='https://en.wikipedia.org/wiki/Set_(game)'>Set</a>. The premise of the game is fairly simple:
