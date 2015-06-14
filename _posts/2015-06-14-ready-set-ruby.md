@@ -172,7 +172,7 @@ end
 
 The correct answer is **1,080** distinct possible sets. I really enjoyed this exercise, because it was never really about arriving at the number of 1,080 -- rather, it was about learning to approach an initially complex problem in a disciplined, stepwise way. Ruby may not objectively be the best language for computation, but when you're still learning to code, it is important to use whatever tool you feel the most comfortable with, so that you can focus on problem-solving rather than the mechanics of using the language.
 
-On discussing this with Mateu from 8th Light (a shout-out to the whole team there, who are awesome), he suggested approaching the problem in reverse: Rather than generating every possible combination and filtering, we could be more discerning about what cards are generated in the first place. Our approach had the shape of a funnel -- start large, then whittle down, whereas what he had in mind was the complete opposite: start small, and build up gradually.
+On discussing this with [Mateu](https://twitter.com/demonh3x) from [8th Light](https://twitter.com/8thLightInc) (a shout-out to the whole London team, who are awesome), he suggested approaching the problem in reverse: Rather than generating every possible combination and filtering, we could be more discerning about what cards are generated in the first place. Our approach had the shape of a funnel -- start large, then whittle down, whereas what he had in mind was the complete opposite: start small, and build up gradually.
 
 If you would to take a crack at modeling Mateu's method, throw it on Github and tweet at me - @deniseyu21 :-)
 
