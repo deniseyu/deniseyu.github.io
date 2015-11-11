@@ -119,13 +119,13 @@ wrap all search terms with inner quotes...
 db.collectionName.find({ $text: { $search: "'China' 'September' 'M&A'" }})
 ```
 
-Using inner or outer quotes could vary based on what language your wrapper is
+Using single or double quotes could vary based on what language your wrapper is
 written in.
 
 A couple of notes here: 
 
 - MongoDB's full-text search ignores some very short words by default, like "and", "but", "the", etc.
-- There are ways to use boolean(-ish) operators to exclude search results, but
+- There are ways to use boolean operators to exclude search results, but
   again, you may have to do some extra string manipulation on the parameters between
   your client and server.
 
@@ -140,15 +140,22 @@ restrictions are in the
 biggest one which has the most direct impact on users is that stemming is not
 really a substitute for fuzzy searching. From the docs, if you type "blue", it
 might match "blues", but not "blueberry". Based on our experience, there are
-similar limitations with typing "China" instead of "Chinese". The stemming
-library is also hard-coded at the moment, and there is no way to load other
+similar limitations with stemming on proper nouns, i.e. typing "China" won't 
+retrieve search results containing "Chinese". The stemming library is also 
+hard-coded at the moment, and there is no way to load other text-processing 
 engines like Lucene.
 
 In all, I think MongoDB full-text search is a reasonable compromise if you're
-moving away from client-side search (shudder) but not quite ready to make the
+moving away from something like client-side search (shudder) but not quite ready to make the
 leap to Elasticsearch. I'm also not sure how performant MongoDB is when you
-start to index against many fields. It was a fun feature build, and it
+start to index against many fields. It was a fun feature to build, and it
 goes to show just how hard it is to write code to deal with natural language,
 particularly English! It may work better in other languages that are declined
 more regularly, if you've tried it out, let me know --
 [@deniseyu](www.twitter.com/deniseyu21).
+
+### Further Reading
+
+[https://blog.codecentric.de/en/2013/01/text-search-mongodb-stemming/](https://blog.codecentric.de/en/2013/01/text-search-mongodb-stemming/)
+[https://docs.mongodb.org/manual/administration/indexes-text/](https://docs.mongodb.org/manual/administration/indexes-text/)
+
