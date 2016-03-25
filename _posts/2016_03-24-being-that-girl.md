@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I don't want to be "That Girl"
+title: I don't want to be That Girl
 ---
 
 This is a difficult post for me to write. When I started coding a year and a
