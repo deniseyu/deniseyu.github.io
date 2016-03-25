@@ -31,7 +31,7 @@ stateside experienced.
 
 From inflammatory emails and tweets directed to the official codebar accounts
 to awkward questions about "cultural fit" asked during job interviews to
-off-hand remarks made by colleagues (in perfectly good faith) that were
+off-hand remarks made by colleagues that were
 gendered in ways that they didn't realise, I've learnt firsthand over my first
 year working professionally in tech that my outward gender has defined or influenced a
 LOT of my interactions, and probably will continue to do so for the foreseeable
@@ -40,7 +40,7 @@ future.
 I finally got around to watching "Debugging the Gender Gap", a documentary
 about the lack of diversity in tech and what companies and individuals can do
 about it. A huge thank you to [Jo](https://twitter.com/ThisIsJoFrank) for
-organising the event, part of Achieving Diversity in Tech, a new initiative at
+organising the screening, part of Achieving Diversity in Tech, a new initiative at
 Ticketmaster UK.
 
 Julie Ann Horvath's comments in the film really struck a chord with me. I'm not
@@ -53,7 +53,7 @@ be "that girl".
 I brought this up during the Q&A that followed the film, and it turned out that
 a lot of women in the audience felt the same way at least once. There have been
 multiple times when I've been in a situation where one or more men made a
-comment or joke that I didn't "get" the humor of, or would ask me questions
+comment or joke that I didn't "get", or would ask me questions
 that made me an unwilling representative of all women -- things that I knew I
 was either excluded or singled out for on the basis of being female. In almost
 all circumstances, I felt slightly irked but never annoyed enough to raise a
@@ -70,11 +70,22 @@ reflection, I think girls are more likely to think this way, because women are
 socialised to constantly think about the room that we take up and what we can
 do to please the people around us better.
 
-I studied economics in university. I've forgotten a shamefully large amount of
-it, but one thing I do remember is diminishing marginal cost. If you are making
+I studied economics in university, so every now and again I like to try to
+analyse problems using rational choice theory. In simplified terms, rational 
+choice models assume that people make choices that promote their 
+self-interest while minimizing self-harm. I think it can help explain why a lot
+of unintentionally harmful bias happens in the workplace, but nobody --
+including those experiencing it -- is speaking up about it.
+
+In economics, the concept of diminishing marginal costs and returns is used 
+to explain equilibrium behaviours -- why supply and demand settle at a 
+a seemingly-arbitrary price point. It also holds true for individual
+decision-making. These are the diagrams where many economics students start to
+draw the parallels between macroeconomics and microeconomics. If you are making
 £100K a year, it's less painful for you to lose £100 than it is for someone
-who only makes £25K a year because the marginal cost is different. In
-professional environments, political capital is distributed unequally across
+who only makes £25K a year because the marginal cost is different. 
+
+In professional environments, political capital is distributed unequally across
 employees. Some people come in with more (maybe they were friends with the CTO
 from a previous role) and some people come in with less (maybe they're an
 untested junior developer and this is their first role). You can use political
@@ -83,16 +94,20 @@ budgets or hack days, getting your friend a recommendation to work at your
 company, or gunning for a promotion or pay rise for yourself. I think it's a
 pretty safe assumption to say that both male and female employees would prefer
 to dedicate most of their political capital towards career advancement whenever
-possible. A key difference is that most straight-cisgender-male engineers will never have to
-expend any political capital to push for fair treatment in the workplace or to
-get their bosses to notice subconscious biases. So, even in an ideal world
+possible. A key difference is that most straight-cisgender-male engineers 
+will never have to expend any political capital to push for fair treatment in the workplace or to get their bosses to notice subconscious biases. 
+
+Even in an ideal world
 where a male and female junior-level employee begin with the same amount of
-political cred, a woman in that position may have to consider the impact to her
+political credit, a woman in that position may have to consider the impact to her
 career advancement odds if she "spends" some of that capital on things like
 pointing out sexism in the workplace and trying to address it. The marginal
 cost is higher, so we're pretty meaningfully deterred from making noise when we
-don't think that the gamble will pay off in our favor. Privilege means not having 
-to think about it in the first place.
+don't think that the gamble will pay off in our favor. Maybe there's a world in which
+a woman calls out unfair treatment and everything gets better, 
+but *we have too much anecdotal evidence to the contrary* -- Julie Ann Horvath, 
+Adria Richards, Gamergate, the list goes on and on. Privilege means not having 
+to weigh these calculations.
 
 I'm not really sure where this leaves me. I guess that's why I was so hesitant
 to blog about this for such a long time. I think, at the least, it leaves me
