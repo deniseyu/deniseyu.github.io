@@ -1,6 +1,6 @@
 ---
 layout: post
-title: An experiment to improve team feedback
+title: An Experiment to Improve Team-wide Feedback
 ---
 
 I've been working at Pivotal Cloud Foundry for the last 16 months. During that
@@ -20,8 +20,8 @@ during the first week that someone joins, odds are they'll learn what "TASK"
 on-boarding or team on-boarding. We have an internal web application, called
 "Feedback" (very creative, I know) that basically provides a nicer interface
 than Gmail for giving someone else feedback. Some Labs teams also schedule "speed
-dating" feedback sessions, especially with larger client teams. Throughout each
-office, volunteers who have longer-term context about the company culture will
+dating" feedback sessions, especially with larger client teams. Throughout
+offices, volunteers who have longer-term context about the company culture will
 also conduct "Core Practice" sessions, with common topics being delivering and
 receiving feedback.
 
@@ -68,13 +68,13 @@ sent to the team:
 >- Matt for Jen
 >- Jen for Denise
 >- and Denise for Sam.
-
+>
 >Does that make sense?
-
+>
 >We have all week to gather insights from the rest of the team, and on Friday right after lunch (13:30 - 15:00) we can all deliver the feedback we've collected and synthesized.
-
+>
 >As you're soliciting, offering, and synthesizing feedback, try to keep in mind the TASK model: Feedback should be Timely, Actionable, Specific, and Kind.
-
+>
 >Ready set.... go!
 
 It took a day or so for people to get into the swing of things. Some people
