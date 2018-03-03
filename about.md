@@ -4,13 +4,13 @@ title: About
 permalink: /about/
 ---
 
-I'm Denise. I'm a Ruby on Rails developer in London. I am originally from New Jersey, and no, I do not have *that* accent.
+I'm Denise. I'm a software engineer in London. I am originally from New Jersey, and no, I do not have *that* accent.
 
 ### Portfolio
 
-For a short portfolio, please visit my [website](http://deniseyu.com/projects).
+All the tech talks that I've ever given can be found [here](https://slides.com/deniseyu). Work stuff is on my [LinkedIn](https://www.linkedin.com/in/deniseyu/).
 
-For a longer one, find me on [Github](http://github.com/deniseyu).
+My Open Source work is on [Github](http://github.com/deniseyu) like everyone else, but for more details email me.
 
 ### Contact me
 
