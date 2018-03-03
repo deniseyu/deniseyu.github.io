@@ -8,9 +8,9 @@ time, I've mostly been an engineer, but am currently putting on a Product
 Management hat for a little while! More on that in a future blog post.
 
 Pivotal is a company that spends a lot of time thinking about what good feedback
-looks like. Not "feedback" from customers or end users, although that is also
+looks like. Not as in feedback from customers or end users, although that is also
 extremely important; I'm talking specifically about peer-to-peer feedback that
-is designed to help individual contributors grow as engineers, designers,
+is intended to help individual contributors grow as engineers, designers,
 product managers, technical writers, and so on.
 
 We have lots of rituals and tools for keeping feedback at the forefront of our
@@ -31,29 +31,28 @@ have 1-to-1s with other members on the team to collect feedback. This feedback
 is delivered on a regular cadence, often fortnightly, but it depends on the
 individuals' preferences.
 
-I recently worked on a Cloud Foundry Foundation team, which often have engineers
-from different companies working together on Open Source codebases. My specific
-team was working on the Cloud Foundry Services API, which is the point of
-integration between the platform and service brokers. We had three engineers
-from Pivotal, and one engineer, Jen, from SUSE who was based out of Nuremberg.
-Jen brought up at one point that she had a feedback review session with her
-manager coming up, but she hadn't received much formalized feedback from our
-team. It seems obvious in retrospect that as Jen didn't work at Pivotal, she
-couldn't have a Pivotal manager constantly gathering feedback on her behalf!
+I recently worked on a Cloud Foundry Foundation team. Foundation teams often
+have engineers from different companies working together on Open Source
+codebases. My specific team was working on the Cloud Foundry Services API, which
+is the point of integration between the platform and service brokers. We had
+three engineers from Pivotal, and one engineer from SUSE named Jen who was based
+out of Nuremberg. Jen brought up at one point that she had a feedback review
+session with her manager coming up, but she hadn't received much formalized
+feedback from our team. It seems obvious in retrospect that as Jen didn't work
+at Pivotal, she couldn't have a Pivotal manager constantly gathering feedback on
+her behalf!
 
 This got me thinking. Over one weekend I came up with an experiment to try to
 address this deficit. I asked myself, "Why is it the case that only managers
 should gather feedback on behalf of their reports?", and "What if we spent a
 week playing the role of managers and did this exact exercise, for someone else
 on the team?" In a team that has a healthy degree of psychological safety and
-shared understanding of what empathetic behavior looks like, I could come up
+shared understanding of empathetic behavior, I could come up
 with no compelling reasons not to at least try.
 
 When we finally found a week when no one was traveling, this was the email I
 sent to the team:
 
-> Hi team,
->
 > As mentioned at standup this morning, we have a retro item from a long time ago that we'd create time to give each other feedback. This week, we'll be giving each other the gift of feedback by actively collecting feedback on behalf of another team member.
 >
 > I wrote a sophisticated algorithm to randomly generate who will be collecting for whom:
@@ -74,8 +73,6 @@ sent to the team:
 >We have all week to gather insights from the rest of the team, and on Friday right after lunch (13:30 - 15:00) we can all deliver the feedback we've collected and synthesized.
 >
 >As you're soliciting, offering, and synthesizing feedback, try to keep in mind the TASK model: Feedback should be Timely, Actionable, Specific, and Kind.
->
->Ready set.... go!
 
 It took a day or so for people to get into the swing of things. Some people
 preferred collecting feedback over email or Slack; others booked in 15-minute
@@ -99,10 +96,11 @@ time to research the anchor role by digging through our internal Google Drive.
 
 The light social pressure created by watching everyone else gather feedback,
 combined with the constrained timeframe of one week, motivated (at least) me to
-prepare to make every feedback gathering conversation as productive as possible.
-We learnt a lot about how to improve our own feedback delivery methods from
-watching others do it. It's uncommon for non-managers at Pivotal to collect
-feedback for others, and I gained more empathy for the managers!
+think ahead about making sure every feedback-gathering conversation was as
+productive as possible. We learnt a lot about how to improve our own feedback
+delivery methods from watching others do it. It's uncommon for non-managers at
+Pivotal to collect feedback for others, and I gained more empathy for the
+managers!
 
 #### Would we do this again?
 
@@ -123,6 +121,6 @@ familiarity among the team to work. After I rotated off this team, and two new
 team members from yet another company joined, the team ran Feedback Week again --
 with great success. I still believe that psychological safety matters, but I'm
 now more confident recommending this experiment for teams that are still
-storming and norming. If you try this on your team, please tell me how it goes
+[storming and norming](https://en.wikipedia.org/wiki/Tuckman%27s_stages_of_group_development). If you try this on your team, please tell me how it goes
 via [email](http://deniseyu.github.io/about/) or
 [Twitter](https://twitter.com/deniseyu21)!
