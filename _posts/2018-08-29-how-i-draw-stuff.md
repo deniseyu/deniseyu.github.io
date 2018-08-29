@@ -64,7 +64,7 @@ I experimented with using the scanners in the office for a while, but even at 60
 
 I send the photo to myself on Airdrop or Slack, then open it in [Gimp](https://www.gimp.org/) -- not necessarily because it's the best tool for this job, but simply because I used Gimp a lot when I was a teenager and am already familiar with a lot of the controls. Adobe Photoshop or Illustrator is almost certainly better, but I don't have a license and am too lazy to learn a new toolset again.
 
-In Gimp, I rotate and crop the photo, then I just dial the contrast setting up to around 100. I just want to get the picture to the point where all the background is pure white, and all the lines are pure black.
+In Gimp, I rotate and crop the photo, then I just dial the contrast setting up to around 100. I just want to get the picture to the point where all the background is pure white, and all the lines are pure black. If, after the contrast-blast, the lines are looking a little too jagged, then I'll apply a median blur filter of 1px or 2px radius to soften things out a little bit.
 
 I'll also rearrange stuff and fix stray lines a bit, but I try not to over-fix -- my personal style involves a certain degree of imperfection, so I try to keep that feel.
 
