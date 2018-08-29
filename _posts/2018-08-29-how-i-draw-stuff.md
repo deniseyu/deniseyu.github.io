@@ -81,6 +81,8 @@ For most of what I color, I do these things:
 1. In the base layer, use the magic select tool to grab a contiguous area (Krita can detect across layers too), then in the Colors layer, 'Grow' the selection by 1-3px (depending on thickness of the line), and use bucket fill.
 1. If the line art is broken or incomplete, I use the polygon select to approximate the area I want to color in, then use bucket fill again, and use the paintbrush in 'Basic-1' mode to fill in the edges.
 
+I *sometimes* use my tablet, but right now I'm doing all my work on a Macbook Air which doesn't have enough muscle to keep up with the tablet in realtime, so it's more annoying than helpful. I'll only break out the tablet now if I need to do tapering lines or add handwriting. I mostly just use the mouse for coloring.
+
 I'm not great at shading but I try to give all the animals some depth by at least giving them a shadow, and some shading bits on their bodies and surrounding objects. I set up a new transparent Multiply layer for shadows, and will first try to use the same color, but sometimes it doesn't work because I tend to use a lot of pastels and light colors multiplying doesn't look that obvious. So I'll shade yellows with light orange, pink with light red, etc.
 
 ### Step Six: Publishing
