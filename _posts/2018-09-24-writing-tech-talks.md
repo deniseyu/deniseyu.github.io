@@ -61,7 +61,7 @@ Steve being the token guy :-D
 the anatomy of a great CFP: [What Your Conference Proposal is Missing](http://www.sarahmei.com/blog/2014/04/07/what-your-conference-proposal-is-missing/)
 
 Fundamentally, when I try to write proposals, I try to answer the question: "What
-will I get out of going to this talk?" As an audience member, I don't expect
+would I as an attendee get out of going to this talk?" As an audience member, I don't expect
 some groundbreaking new worldview, but I do expect two or three "nuggets of knowledge"
 that I can go and research in more depth after the talk. Be upfront about what your
 "nuggets" will be!
@@ -111,13 +111,14 @@ I generally give three types of talks:
 
 My research process is different based on the type of talk it is.
 
-For Type 1, I spend 20-30 hours watching YouTube videos of recent other talks that
+For Type 1, I spend anywhere from 5 to 20 hours watching YouTube videos of recent other talks that
 deal with similar subject matter, reading official documentation, following tutorials,
 and reading blog posts. My outline usually begins broadly with a survey of "What have
 other people already said?" to set the stage, then goes narrower into whatever I
 said I would talk about.
 
-For Types 2 and 3, in addition to the "academic research", I interview people. Usually other people at Pivotal, but I
+For Types 2 and 3, in addition to the "academic research", I interview people. 
+Usually other people at Pivotal, because I talk a lot about my work, but I
 sometimes venture out into the Real World. I try to gather qualitative insights
 about whether something worked or not, why it was successful or not, and what
 others have learnt already. For my [SwanseaCon talk](https://slides.com/deniseyu/swanseacon) I
