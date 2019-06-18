@@ -7,7 +7,7 @@ Recently, I embarked on a fun, but ambitious and masochistic endeavor of trying 
 each of the 84* people I work with at Pivotal R&D in the Toronto office as a Golang gopher.
 Was it a super fun way to get to know my coworkers? Absolutely! Would I do it again? Probably not.
 
-*I started this project in February, and completed it this past week. In that time, people have left and joined.
+**I started this project in February, and completed it this past week. In that time, people have left and joined.
 I included some folks who have since left, and did not include folks who just joined. I might do a follow-up batch
 later on, when I'm less burned out!!*
 
@@ -84,8 +84,8 @@ boosted guessability in more than one case.
 I tried to be conscious of not representing all the women gophers with stereotypically feminine, pastel colors,
 _unless_ outward femininity was part of that person's style. Similarly, not shying away from pastels and pinkish tones for male gophers.
 
-![Scott, part of Batch 8](/images/scott.png)
-<br>*Scott, part of Batch 8*
+![Scott, part of Batch 7](/images/scott.png)
+<br>*Scott, part of Batch 7*
 
 In a few cases, I chose gopher colors that would compliment an outfit I had in mind already for that person. For example, I knew
 Jateen is a huge Maple Leafs fan, so he had to be in his Leafs jersey, so a slightly muted dark red would contrast nicely with the
@@ -94,5 +94,31 @@ within each set, so that overall there'd be a roughly even distribution of warm 
 I think I naturally gravitate towards cool tones, especially blue, so it's likely that blue is overrepresented in the rainbow stripes.
 I also generally stayed away from peach, light orange, and tan tones, because I thought it would be weird for gophers to have human-like skin tones.
 
-I may add to this blog post later, but for now, you can view all the gophers in [this public Google Drive folder](https://drive.google.com/drive/u/0/folders/1GV8hWP_0y0ZVx_W5E6CU-QV2HX0tQlWt).
+![Jateen, part of Batch 9](/images/jateen.png)
+<br>*Jateen, part of Batch 9*
+
+I really enjoyed trying to get people's hair accurate. Women's hair is generally easier for me to draw, because there is a wider range 
+of dramatically different ways to style women's hair -- which translate well into cartoons. I've always found drawing men's hair to be tougher.
+I remember back in high school when I used to draw a lot of anime characters,
+I more or less made all the male characters have the same hair. Since I work in tech, there are lots of guys in my office and I wanted
+to at least try to show the difference between longer and shorter, silkier and thicker, straighter and wavier hair. I initially started
+generally trying to get the correct shade of brown for people's hair, but I soon realized that almost everyone has brown hair, so in cases
+where dark hair wouldn't be a "differentiator", I played around with choosing darker non-earth tones, such as navy, maroon, and forest green.
+
+![Stu, part of Batch 4](/images/stu.png)
+<br>*Stu, part of Batch 4*
+
+Facial hair was also interesting to model on gophers. Drawing sideburns is almost impossible, since gophers' ears are at the top of their heads,
+and sideburns really depend on being positioned in front of the ear in order to be recognizable as sideburns. So, in cases where people had
+sideburns or a thin strip of short hair that joined up into a beard, I just kind of faked it by ending the hair lower, and starting the beard higher.
+It was really tricky to think of how to model people with closely-shaven beards, so in those cases, I generally just left the beard out.
+For mustaches, I replaced the gopher's muzzle with a fluffy mustache that usually joined up into a beard.
+
+![Josie, part of Batch MP](/images/josie.png)
+<br>*Josie, part of Batch MP*
+
+In the future, if I were to mass-draw gophers again, I would change up my base template to have a couple different poses. Having everyone 
+face forward was a little boring!
+
+You can view all the Toronto R&D gophers in [this public Google Drive folder](https://drive.google.com/drive/u/0/folders/1GV8hWP_0y0ZVx_W5E6CU-QV2HX0tQlWt).
 
