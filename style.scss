@@ -153,6 +153,8 @@ img {
 //
 
 .wrapper-masthead {
+  box-sizing: border-box;
+  padding-top: 3em;
   margin-bottom: 50px;
 }
 
@@ -283,6 +285,27 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+nav.top-bar {
+  margin-top: 0;
+  position: absolute;
+  font-size: 1.5em;
+  background-color: #82b74b;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.2em;
+  text-align: center;
+
+  li {
+    display: inline;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+
+    a {
+      margin-left: 0;
+    }
+  }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
