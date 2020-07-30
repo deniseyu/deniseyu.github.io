@@ -43,7 +43,7 @@ That usually generates a story, or at least a set of bulletpoints like a BuzzFee
 
 ### Step Two: Rough draft
 
-I use regular printer paper (because I'm precious about my expensive cartridge paper) and fine liner to doodle out a first attempt at representing all the information. I don't have fully fleshed-out characters or scenes yet -- at this point it's just playing around with what can fit where, and how the ideas can feed into one another. Here's the rough copy of the [CredHub sketch](https://sketch-ops.tumblr.com/image/177215771394):
+I use regular printer paper (because I'm precious about my expensive cartridge paper) and fine liner to doodle out a first attempt at representing all the information. I don't have fully fleshed-out characters or scenes yet -- at this point it's just playing around with what can fit where, and how the ideas can feed into one another. Here's the rough copy of the [CredHub sketch](https://deniseyu.io/art/sketchnotes/topic-based/credhub.png):
 
 ![CredHub doodle v0.1](/images/credhub-draft.jpg)
 
